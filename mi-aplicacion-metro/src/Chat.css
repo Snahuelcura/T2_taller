@@ -1,0 +1,38 @@
+.chat-container {
+    max-width: 400px;  /* Ancho máximo del chat */
+    margin: 20px auto; /* Centrado y con margen */
+    border: 1px solid #ccc; /* Borde para el contenedor */
+    padding: 10px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+.messages {
+    height: 300px; /* Altura fija para el área de mensajes */
+    overflow-y: auto; /* Habilitar desplazamiento vertical si es necesario */
+    border: 1px solid #ddd; /* Borde para el área de mensajes */
+    margin-bottom: 10px; /* Margen inferior */
+    background-color: white; /* Fondo blanco para el área de mensajes */
+}
+
+.message {
+    padding: 8px; /* Espaciado interno para cada mensaje */
+    margin: 5px 0; /* Margen entre mensajes */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #e8e8e8; /* Color de fondo para mensajes */
+}
+
+.outgoing {
+    background-color: #dcf8c6; /* Color de fondo para mensajes enviados */
+    text-align: right; /* Alineación derecha para mensajes enviados */
+}
+
+.incoming {
+    background-color: #e8e8e8; /* Color de fondo para mensajes recibidos */
+    text-align: left; /* Alineación izquierda para mensajes recibidos */
+}
+
+input, button {
+    width: calc(100% - 20px); /* Ajustar el ancho al contenedor, restando el padding */
+    padding: 10px; /* Espaciado interno para input y botón */
+    margin-top: 10px; /* Espacio superior para separar de los mensajes */
+}
